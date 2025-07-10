@@ -36,15 +36,14 @@ Please refer to our CONTRIBUTING.md (coming soon) for detailed guidelines.
 
 ## **📄 License**
 
-This project is licensed under the MIT License \- see the LICENSE file for details.
+This project is licensed under the MIT License \- see the [LICENSE](http://LICENSE) file for details.
 
 ## **✉️ Contact**
 
 For any inquiries, feedback, or collaboration opportunities, please feel free to reach out:
 
-* **Your Name:** \[Your Full Name Here\]  
-* **Email:** \[Your Email Address Here\]  
-* **Twitter:** \[Your Twitter Handle Here\]  
-* **LinkedIn:** \[Your LinkedIn Profile URL Here\]
+* **LinkedIn:** [https://www.linkedin.com/in/yash-agrawal-b02088141/](https://www.linkedin.com/in/yash-agrawal-b02088141/)  
+* **Upwork:**  
+* **Fiverr:**
 
 Thank you for being a part of the AuraAI journey towards a safer and more private AI future\!
