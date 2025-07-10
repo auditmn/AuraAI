@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "AuraAI Privacy Shield",
+  "version": "1.0",
+  "description": "Automatically redacts sensitive Personal Identifiable Information (PII) from your AI prompts before they leave your browser. (DEBUG VERSION)",
+  "action": {
+    "default_popup": "src/html/popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "src/js/background.js"
+  }
+}
