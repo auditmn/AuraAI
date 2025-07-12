@@ -1,62 +1,24 @@
-# Operating System Files
-.DS_Store
-Thumbs.db
-
-# Editor/IDE Specific Files
-.vscode/        # VS Code settings (if not shared)
-.idea/          # IntelliJ/WebStorm IDE files
-*.sublime-project
-*.sublime-workspace
-*.swp           # Vim swap files
-*.bak           # Backup files
-
-# Node.js / npm related files (even if not using a full framework, npm is common for dev tools)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.npm/
-
-# Build output directories
-dist/
-build/
-out/
-
-# Browser Extension Specific Temporary Files
-*.crx           # Packed extension files
-*.zip           # Zipped extension for publishing
-.temp/          # Temporary development folders
-
-# !!! SENSITIVE FILES - CRUCIAL FOR SECURITY !!!
-# NEVER commit these to a public repository.
-.env            # Environment variables (e.g., API keys, secrets)
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-config.local.js # Example for local config with secrets
-secrets.js      # Another example for secrets file
-*.key           # Private keys (e.g., SSH, API keys, certificates)
-*.pem           # PEM format keys
-*.p12           # P12 format keys
-*.pfx           # PFX format keys
-*.jks           # Java KeyStore files
-
 # Logs
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Test/Coverage reports
-coverage/
-.nyc_output/
+node_modules
+dist
+dist-ssr
+*.local
 
-# Miscellaneous
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-.project
-.settings
-.classpath
-
-# If you use any specific local database files (e.g., for IndexedDB testing)
-*.sqlite
-*.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
